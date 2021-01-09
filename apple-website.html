@@ -1,0 +1,172 @@
+<!DOCTYPE html id='top'>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Recereation</title>
+</head>
+<style>
+    * {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    }
+
+       button.title {
+        margin-top: 50px;
+        font-size: 18px;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 15px;
+        transition: 0.6s;
+        width: 200px;
+        height: 60px;
+        margin-left:560px;
+
+    }
+
+    button.title:hover{
+        background-color:rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        transform: scale(1,1);
+        cursor: pointer;
+    }
+
+    hr.title {
+        border: rgb(255, 255, 255) solid 2px;
+        background-color: rgb(255, 255, 255);
+        width: 20%;
+        margin-left: 535px;
+        
+
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 3%;
+    }
+
+    .card {
+        margin-top: 100px;
+        box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+        width: 28%;
+        color: white;
+        transition: 0.7s;
+
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+
+    .card:hover {
+        box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+        transform: scale(1.1, 1.1);
+    }
+
+    h6{
+        color: red;
+        font-size: 15px;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:0.6s;
+}
+
+li a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+video{
+    
+    height: 300px;
+    margin-left:20% ;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+</style>
+<script>
+
+</script>
+<body>
+
+    
+    <ul>
+        <li><a href="apple-website.html">Home</a></li>
+        <li><a href="mac.html">iMac</a></li>
+        <li><a href="iphone.html">iPhone</a></li>
+        <li><a href="ipad.html">iPad</a></li>
+      </ul>
+      
+      <video src="https://www.apple.com/105/media/us/macbook-air/2020/e3fd8da8-1d68-4e62-886e-7982672a0499/anim/hero/large.mp4" autoplay></video>
+    
+
+    
+    
+
+    <div class="cards" >
+        <div class="card">
+            <video src="The most powerful iPhone ever.mp4" alt="" width="100%" height="100%" autoplay muted></video>
+            <div class="container">
+                <h6><b>new</b></h6>
+                <h4><b>Iphone 12 Pro</b></h4>
+                <p>Starting at $799</p>
+            </div>
+        </div>
+        <div class="card" id="cardss">
+            <video src="iPhone 11 Pro Trailer.mp4" alt="" width="100%" height="100%" autoplay muted></video>
+              
+            <div class="container">
+                <h6><b>new</b></h6>
+                <h4><b>Iphone 11</b></h4>
+                <p>Sarting at $699</p>
+            </div>
+        </div>
+        <div class="card">
+            <video src="Apple iMac Pro Trailer.mp4" alt="" width="100%" height="100%" autoplay muted></video>
+            <div class="container">
+                <h6><b>new</b></h6>
+                <h4><b>iMac Pro</b></h4>
+                <p>Starting at  $4,999 </p>
+            </div>
+        </div>
+    </div>
+
+   
+   <br>
+
+
+</body>
+
+</html>
